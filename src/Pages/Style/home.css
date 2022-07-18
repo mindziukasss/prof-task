@@ -1,0 +1,49 @@
+.table > thead {
+	color: #c4017a;
+	font-weight: bold;
+	border-bottom-style: hidden;
+}
+
+.col_interest {
+	color: #101ec7;
+	background: #c4017a
+}
+
+thead tr {
+	background:#fff5f5;
+	border-width: 0;
+}
+
+.border {
+	box-shadow: 1px 3px;
+	border-width: 0 4px 8px 12px;
+	color: #dee2e6;
+	border-radius: 10px !important;
+}
+
+.sort-button {
+	background-color: transparent;
+	border: none;
+	padding: 5px 10px;
+	margin: 0;
+	line-height: 1;
+	font-size: 15px;
+	color: #101ec7;
+	cursor: pointer;
+	transition: transform 0.05s ease-out;
+}
+
+.sort-reverse {
+	transform: rotate(180deg);
+}
+
+.button-special {
+	border-radius: 12px !important;
+	background-color: #c4017a !important;
+	color: #ffff !important;
+	border-color: #c4017a !important;
+}
+
+.radius {
+	border-radius: 12px !important;
+}
