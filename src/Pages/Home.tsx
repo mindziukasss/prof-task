@@ -8,6 +8,7 @@ import { nanoid } from 'nanoid';
 import Form from 'react-bootstrap/Form';
 import { EditTableRow } from '../Components/EditTableRow';
 import { ReadTableRow } from '../Components/ReadTabbleRow';
+import { Link } from "react-router-dom";
 
 type Data = typeof data;
 type SortKeys = keyof Data[0];
@@ -243,6 +244,7 @@ export function Home()
 				</Table>
 				</Form>
 			</Card>
+			<Link to='/about'>Get post</Link>
 			<ProjectModal
 				formData={formData}
 				handleAddFormChange={handleAddFormChange}
